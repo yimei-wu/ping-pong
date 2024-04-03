@@ -1,0 +1,14 @@
+@import "variables";
+@import "spacer";
+@import "section-hero";
+@import "section-card";
+@import "section-edition";
+@import "section-mohole";
+@import "footer";
+
+body {
+    background-color: $white;
+    color: $black;
+    font-family: Brut Grotesque;
+    margin: 0;
+}

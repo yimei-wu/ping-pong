@@ -1,0 +1,20 @@
+// PALETTE COLORI
+$white: #fbfbfb;
+$yellow: #fff200;
+$green: #409F44;
+$black: #1d1d1d;
+
+// FONT
+@font-face {
+    font-display: swap;
+    font-family: Brut Grotesque;
+    src: url('/font/Brut\ Grotesque\ 6.001/BrutGrotesque-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-display: swap;
+    font-family: Darker Grotesque;
+    src: url('/font/Darker_Grotesque/DarkerGrotesque-VariableFont_wght.ttf') format('truetype');
+}
+
+$brut-grotesque: Brut Grotesque;
+$darker-brutesque: Darker Grotesque;

@@ -1,0 +1,49 @@
+.menu {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2000;
+    width: 22vw;
+    text-align: center;
+    font-size: 20px;
+    // border: 1px solid $black;
+    .m-1 {
+        background-color: $white;
+        padding: 2px;
+        // border-bottom: 1px solid $black;
+    }
+    .m-2 {
+        background-color: $yellow;
+        padding: 2px;
+        // border-bottom: 1px solid $black;
+    }
+    .m-3 {
+        background-color: $green;
+        color: $white;
+        padding: 2px;
+    }
+}
+video {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+.position {
+    position: relative;
+    .button {
+        position: absolute;
+        top: 83%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1000;
+        background-color: $yellow;
+        border-radius: 50px;
+        width: 10vw;
+        padding: 15px 25px;
+        text-align: center;
+        font-size: 25px;
+        cursor: pointer;
+        box-shadow: 2px 2px 8px $black;
+    }
+}

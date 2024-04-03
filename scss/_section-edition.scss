@@ -1,0 +1,105 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    position: relative;
+    .gallery {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        background-color: $yellow;
+        display: grid;
+        grid-template-columns: repeat(35, 1fr);
+        grid-template-rows: repeat(31, 2vw);
+        h3 {
+            grid-column-start: 3;
+            grid-column-end: 31;
+            grid-row-start: 2;
+            grid-row-end: 6;
+            font-family: $darker-brutesque;
+            font-size: 8vw;
+            font-weight: bolder;
+            letter-spacing: 10px;
+            margin: 0;
+        }
+        .img-1 {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            grid-row-start: 10;
+            grid-row-end: 18;
+        }
+        .img-2 {
+            grid-column-start: 13;
+            grid-column-end: 21;
+            grid-row-start: 12;
+            grid-row-end: 20;
+        }
+        .img-3 {
+            grid-column-start: 22;
+            grid-column-end: 30;
+            grid-row-start: 10;
+            grid-row-end: 18;
+        }
+        .img-4 {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            grid-row-start: 19;
+            grid-row-end: 27;
+        }
+        .img-5 {
+            grid-column-start: 13;
+            grid-column-end: 21;
+            grid-row-start: 21;
+            grid-row-end: 29;
+        }
+        .img-6 {
+            grid-column-start: 22;
+            grid-column-end: 30;
+            grid-row-start: 19;
+            grid-row-end: 27;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        h4 {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            grid-row-start: 8;
+            grid-row-end: 9;
+            margin: 0;
+            font-size: 1.5vw;
+        }
+        .upside-down {
+            grid-column-start: 22;
+            grid-column-end: 30;
+            grid-row-start: 28;
+            grid-row-end: 29;
+            text-align: left;
+            transform: rotate(180deg);
+        }
+    }
+    .des {
+        grid-column-start: 9;
+        grid-column-end: 12;
+        background-color: $black;
+        color: $white;
+        // position: relative;
+        padding: 5vw;
+        padding-left: 9vw;
+        p {
+            font-size: 1.5vw;
+        }
+        h3.vertical {
+            color: $yellow;
+        }
+    }
+    h3.vertical {
+        position: absolute;
+        top: 45%;
+        left: 63.5%;
+        transform: rotate(90deg) translateX(-50%);
+        color: $black;
+        font-family: $darker-brutesque;
+        font-size: 8vw;
+    }
+}
