@@ -244,6 +244,7 @@ video {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  box-shadow: -2px 2px 8px #1d1d1d;
 }
 .grid .gallery h4 {
   grid-column-start: 4;
@@ -267,16 +268,17 @@ video {
   background-color: #1d1d1d;
   color: #fbfbfb;
   position: relative;
-  padding: 5vw;
-  padding-left: 9vw;
+  padding: 2.5vw 4.5vw;
   overflow: hidden;
 }
 .grid .des p {
-  font-size: 1.5vw;
+  font-size: 1.4vw;
+  text-align: right;
+  line-height: 2vw;
 }
 .grid .des h3 {
   position: absolute;
-  top: 45%;
+  top: 65%;
   left: -33.9%;
   transform: rotate(90deg) translateX(-50%);
   z-index: 3;
@@ -285,7 +287,7 @@ video {
 }
 .grid h3.vertical {
   position: absolute;
-  top: 45%;
+  top: 65%;
   left: 63.5%;
   transform: rotate(90deg) translateX(-50%);
   z-index: 2;
