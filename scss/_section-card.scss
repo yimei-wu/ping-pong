@@ -5,48 +5,57 @@
     .card {
         position: relative;
         text-align: center;
-        h4 {
+        background-color: $black;
+        .face {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            backface-visibility: hidden;
+            transition: transform 0.6s;
+            h4 {
             position: absolute;
             top: 50%;
             left: 50%;
-            transform: translate(-50% -50%);
+            transform: translate(-50%, -50%);
             color: $white;
             font-size: 2vw;
             text-shadow: 4px 4px 4px $black;
             margin: 0;
-        }
-        p {
-            font-size: 1.5vw;
-            color: $black;
-        }
-        img {
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-            overflow: hidden;
-        }
-        // :not(.c-1) {
-        //     perspective: 1000px;
-        // }
-    }
-    .face {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        backface-visibility: hidden;
-        transition: transform 0.6s;
-        .front {
+            }
+            p {
+                font-size: 1.5vw;
+                color: $black;
+            }
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                overflow: hidden;
+            }
+            // :not(.c-1) {
+            //     perspective: 1000px;
+            // }
+            // .front {
 
+            // }
         }
         .back {
             background-color: $white;
             transform: rotateY(180deg);
             text-align: left;
+            box-sizing: border-box;
+            padding: 2vw;
             ul {
                 text-align: left;
                 font-size: 1.5vw;
             }
         }
+    }
+    .card.flipped .front {
+        transform: rotateY(-180deg);
+    }
+    .card.flipped .back {
+        transform: rotateY(0deg);
     }
     .c-1 {
         grid-column-start: 1;
@@ -64,11 +73,13 @@
             left: 0;
             font-size: 2vw;
             text-shadow: none;
+            margin: 0;
             margin-bottom: 2vw;
         }
         p {
             line-height: 2.5vw;
             color: $white;
+            font-size: 1.5vw;
         }
         ul {
             margin-inline: 50%;
@@ -89,11 +100,26 @@
         grid-column-end: 6;
         grid-row-start: 2;
         grid-row-end: 3;
+        .back {
+            background-color: $yellow;
+            p {
+                padding: 5vw 2vw;
+                line-height: 2.7vw;
+            }
+        }
     }
     .c-4 {
         grid-column-start: 6;
         grid-column-end: 8;
         grid-row-start: 2;
         grid-row-end: 3;
+        .back {
+            background-color: $green;
+            border-bottom: 1px solid $black;
+            p {
+                padding: 5vw 2vw;
+                line-height: 2.7vw;
+            }
+        }
     }
 }
