@@ -24,18 +24,16 @@
   text-align: center;
   font-size: 1.5vw;
 }
-.menu .m-1 {
+.menu .m-1, .menu .m-2, .menu .m-3 {
   background-color: #fbfbfb;
   padding: 2px;
 }
 .menu .m-2 {
   background-color: #fff200;
-  padding: 2px;
 }
 .menu .m-3 {
   background-color: #409F44;
   color: #fbfbfb;
-  padding: 2px;
 }
 
 video {
@@ -200,7 +198,6 @@ video {
   grid-column-end: 31;
   grid-row-start: 2;
   grid-row-end: 6;
-  font-family: Darker Grotesque;
   font-size: 8vw;
   font-weight: bolder;
   letter-spacing: 10px;
@@ -269,23 +266,32 @@ video {
   grid-column-end: 12;
   background-color: #1d1d1d;
   color: #fbfbfb;
+  position: relative;
   padding: 5vw;
   padding-left: 9vw;
+  overflow: hidden;
 }
 .grid .des p {
   font-size: 1.5vw;
 }
-.grid .des h3.vertical {
+.grid .des h3 {
+  position: absolute;
+  top: 45%;
+  left: -33.9%;
+  transform: rotate(90deg) translateX(-50%);
+  z-index: 3;
   color: #fff200;
+  font-size: 8vw;
 }
 .grid h3.vertical {
   position: absolute;
   top: 45%;
   left: 63.5%;
   transform: rotate(90deg) translateX(-50%);
+  z-index: 2;
   color: #1d1d1d;
-  font-family: Darker Grotesque;
   font-size: 8vw;
+  font-weight: bold;
 }
 
 .col-3 {
@@ -303,6 +309,10 @@ video {
 .col-3 .about h4 {
   font-size: 1.7vw;
 }
+.col-3 .about p {
+  font-size: 1.3vw;
+  line-height: 2.5vw;
+}
 .col-3 .image-mohole {
   grid-column-start: 2;
   grid-column-end: 4;
@@ -312,15 +322,30 @@ video {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: right;
+     object-position: right;
 }
 
 .footer {
   background-color: #409F44;
   padding: 2vw;
 }
+.footer a {
+  text-decoration: none;
+  color: #1d1d1d;
+}
 .footer .info {
   padding: 2vw;
   text-align: left;
+}
+.footer .info span {
+  display: inline-block;
+  margin: 0.7vw;
+}
+.footer .info span img {
+  width: 1vw;
+  height: auto;
+  padding-right: 1vw;
 }
 .footer .copyright {
   display: flex;
@@ -331,9 +356,8 @@ video {
 .footer .social {
   text-align: center;
 }
-.footer .social a {
-  text-decoration: none;
-  color: #1d1d1d;
+.footer .social img {
+  margin: 2vw 0;
 }
 .footer .social .brands {
   display: inline-block;
@@ -341,8 +365,11 @@ video {
 .footer .social .brands a {
   padding: 1.5vw;
 }
+.footer .social .brands a:hover {
+  color: #fbfbfb;
+}
 .footer .social .brands a i {
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 
 body {

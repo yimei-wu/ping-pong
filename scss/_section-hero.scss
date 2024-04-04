@@ -8,20 +8,18 @@
     text-align: center;
     font-size: 1.5vw;
     // border: 1px solid $black;
-    .m-1 {
+    .m-1, .m-2, .m-3 {
         background-color: $white;
         padding: 2px;
         // border-bottom: 1px solid $black;
     }
     .m-2 {
         background-color: $yellow;
-        padding: 2px;
         // border-bottom: 1px solid $black;
     }
     .m-3 {
         background-color: $green;
         color: $white;
-        padding: 2px;
     }
 }
 video {
