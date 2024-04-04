@@ -17,6 +17,7 @@
         }
         p {
             font-size: 1.5vw;
+            color: $black;
         }
         img {
             height: 100%;
@@ -24,26 +25,57 @@
             object-fit: cover;
             overflow: hidden;
         }
+        // :not(.c-1) {
+        //     perspective: 1000px;
+        // }
+    }
+    .face {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        backface-visibility: hidden;
+        transition: transform 0.6s;
+        .front {
+
+        }
+        .back {
+            background-color: $white;
+            transform: rotateY(180deg);
+            text-align: left;
+            ul {
+                text-align: left;
+                font-size: 1.5vw;
+            }
+        }
     }
     .c-1 {
         grid-column-start: 1;
         grid-column-end: 4;
         grid-row-start: 1;
         grid-row-end: 3;
-        padding: 3.5vw;
+        padding: 6vw 3.5vw;
+        background-color: $black;
+        color: $white;
         // background-color: $black;
         // color: $white;
         h4 {
             position: relative;
-            color: $black;
             top: 0;
             left: 0;
-            font-size: 1.7vw;
+            font-size: 2vw;
             text-shadow: none;
             margin-bottom: 2vw;
         }
         p {
-            line-height: 2rem;
+            line-height: 2.5vw;
+            color: $white;
+        }
+        ul {
+            margin-inline: 50%;
+            transform: translateX(-50%);
+            width: 45%;
+            text-align: left;
+            font-size: 1.5vw;
         }
     }
     .c-2 {

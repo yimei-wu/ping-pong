@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="{{ theme.link }}/img/coreui-icons-master/css/all.min.css">
         <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.2.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
         <link rel="stylesheet" href="{{ theme.link }}/scss/style.css" />
+       
         {{ function("wp_head") }}
     </head>
     <body class="{{ body_class }}"
@@ -18,5 +19,6 @@
         </main>
         {% include "footer.twig" %}
         {{ function("wp_footer") }}
+         <script src="{{ theme.link }}/scripts/app.js"></script>
     </body>
 </html>
