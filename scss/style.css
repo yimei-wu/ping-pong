@@ -23,17 +23,60 @@
   width: 35%;
   text-align: center;
   font-size: 1.5vw;
+  background-color: #fbfbfb;
+}
+.menu a {
+  text-decoration: none;
+  color: #1d1d1d;
+}
+.menu a:hover {
+  color: #fbfbfb;
 }
 .menu .m-1, .menu .m-2, .menu .m-3 {
   background-color: #fbfbfb;
   padding: 2px;
 }
+.menu .m-1:hover, .menu .m-2:hover, .menu .m-3:hover {
+  background-color: #1d1d1d;
+}
+.menu .m-1:hover a, .menu .m-2:hover a, .menu .m-3:hover a {
+  color: #fbfbfb;
+}
 .menu .m-2 {
   background-color: #fff200;
 }
+.menu .m-2:hover {
+  background-color: #1d1d1d;
+  color: #409F44;
+  cursor: pointer;
+}
 .menu .m-3 {
   background-color: #409F44;
+}
+.menu .m-3:hover {
+  background-color: #1d1d1d;
+}
+.menu .m-3:hover a {
+  color: #fff200;
+}
+.menu .m-3:hover a:hover {
+  color: #fff200;
+}
+.menu .m-3 a {
   color: #fbfbfb;
+}
+.menu .item {
+  display: none;
+  position: relative;
+  border-top: 1px solid #1d1d1d;
+  font-size: 1.3vw;
+  background-color: #fff200;
+}
+.menu .item:hover {
+  background-color: #fbfbfb;
+}
+.menu .item:hover a:hover {
+  color: #409F44;
 }
 
 video {
@@ -360,6 +403,8 @@ video {
 }
 .footer .social img {
   margin: 2vw 0;
+  width: 5vw;
+  height: auto;
 }
 .footer .social .brands {
   display: inline-block;
