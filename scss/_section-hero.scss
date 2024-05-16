@@ -1,3 +1,18 @@
+@mixin menu-item($bg-color, $text-color, $hover-bg-color, $hover-text-color) {
+    background-color: $bg-color;
+    cursor: pointer;
+    a {
+        color: $text-color;
+    }
+    &:hover {
+        background-color: $hover-bg-color;
+        a {
+            color: $hover-text-color;
+        }
+    }
+  }
+  
+
 .menu {
     position: fixed;
     top: 0;
@@ -16,42 +31,14 @@
             color: $white;
         }
     }
-    .m-1, .m-2, .m-3 {
-        background-color: $white;
-        padding: 2px;
-        // border-bottom: 1px solid $black;
-        &:hover {
-            background-color: $black;
-            a {
-                color: $white;
-            }
-        }
+    .m-1 {
+        @include menu-item($white, $black, $black, $white);
     }
     .m-2 {
-        background-color: $yellow;
-        &:hover {
-            background-color: $black;
-            color: $green;
-            cursor: pointer;
-            // .item {
-            //     display: block;
-            // }
-        }
+        @include menu-item($yellow, $black, $black, $green);
     }
     .m-3 {
-        background-color: $green;
-        &:hover {
-            background-color: $black;
-            a {
-                color: $yellow;
-                &:hover {
-                    color: $yellow;
-                }
-            }
-        }
-        a {
-            color: $white;
-        }
+        @include menu-item($green, $white, $black, $yellow);
     }
     .item {
         display: none;

@@ -1,12 +1,142 @@
 @font-face {
+  font-family: "Brut Grotesque";
+  src: url("../font/brut-grotesque/BrutGrotesque-BookItalic.woff2") format("woff2"), url("../font/brut-grotesque/BrutGrotesque-BookItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
   font-display: swap;
-  font-family: Brut Grotesque;
-  src: url("/font/Brut Grotesque 6.001/BrutGrotesque-VariableFont_wght.ttf") format("truetype");
 }
 @font-face {
+  font-family: "Brut Grotesque";
+  src: url("../font/brut-grotesque/BrutGrotesque-Bold.woff2") format("woff2"), url("../font/brut-grotesque/BrutGrotesque-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
   font-display: swap;
-  font-family: Darker Grotesque;
-  src: url("/font/Darker_Grotesque/DarkerGrotesque-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Brut Grotesque";
+  src: url("../font/brut-grotesque/BrutGrotesque-BoldItalic.woff2") format("woff2"), url("../font/brut-grotesque/BrutGrotesque-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brut Grotesque";
+  src: url("../font/brut-grotesque/BrutGrotesque-BlackItalic.woff2") format("woff2"), url("../font/brut-grotesque/BrutGrotesque-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brut Grotesque";
+  src: url("../font/brut-grotesque/BrutGrotesque-Extrabold.woff2") format("woff2"), url("../font/brut-grotesque/BrutGrotesque-Extrabold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brut Grotesque";
+  src: url("../font/brut-grotesque/BrutGrotesque-Book.woff2") format("woff2"), url("../font/brut-grotesque/BrutGrotesque-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brut Grotesque";
+  src: url("../font/brut-grotesque/BrutGrotesque-ExtraboldItalic.woff2") format("woff2"), url("../font/brut-grotesque/BrutGrotesque-ExtraboldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brut Grotesque";
+  src: url("../font/brut-grotesque/BrutGrotesque-Extralight.woff2") format("woff2"), url("../font/brut-grotesque/BrutGrotesque-Extralight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brut Grotesque";
+  src: url("../font/brut-grotesque/BrutGrotesque-Italic.woff2") format("woff2"), url("../font/brut-grotesque/BrutGrotesque-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brut Grotesque";
+  src: url("../font/brut-grotesque/BrutGrotesque-ExtralightItalic.woff2") format("woff2"), url("../font/brut-grotesque/BrutGrotesque-ExtralightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brut Grotesque";
+  src: url("../font/brut-grotesque/BrutGrotesque-Light.woff2") format("woff2"), url("../font/brut-grotesque/BrutGrotesque-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brut Grotesque";
+  src: url("../font/brut-grotesque/BrutGrotesque-LineItalic.woff2") format("woff2"), url("../font/brut-grotesque/BrutGrotesque-LineItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brut Grotesque";
+  src: url("../font/brut-grotesque/BrutGrotesque-MediumItalic.woff2") format("woff2"), url("../font/brut-grotesque/BrutGrotesque-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brut Grotesque";
+  src: url("../font/brut-grotesque/BrutGrotesque-Line.woff2") format("woff2"), url("../font/brut-grotesque/BrutGrotesque-Line.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brut Grotesque";
+  src: url("../font/brut-grotesque/BrutGrotesque-LightItalic.woff2") format("woff2"), url("../font/brut-grotesque/BrutGrotesque-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brut Grotesque";
+  src: url("../font/brut-grotesque/BrutGrotesque-Medium.woff2") format("woff2"), url("../font/brut-grotesque/BrutGrotesque-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brut Grotesque";
+  src: url("../font/brut-grotesque/BrutGrotesque-Thin.woff2") format("woff2"), url("../font/brut-grotesque/BrutGrotesque-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brut Grotesque";
+  src: url("../font/brut-grotesque/BrutGrotesque-Regular.woff2") format("woff2"), url("../font/brut-grotesque/BrutGrotesque-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brut Grotesque";
+  src: url("../font/brut-grotesque/BrutGrotesque-Black.woff2") format("woff2"), url("../font/brut-grotesque/BrutGrotesque-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brut Grotesque";
+  src: url("../font/brut-grotesque/BrutGrotesque-ThinItalic.woff2") format("woff2"), url("../font/brut-grotesque/BrutGrotesque-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
 }
 .spacer {
   width: 100%;
@@ -33,38 +163,44 @@
 .menu a:hover {
   color: #fbfbfb;
 }
-.menu .m-1, .menu .m-2, .menu .m-3 {
+.menu .m-1 {
   background-color: #fbfbfb;
-  padding: 2px;
+  cursor: pointer;
 }
-.menu .m-1:hover, .menu .m-2:hover, .menu .m-3:hover {
+.menu .m-1 a {
+  color: #1d1d1d;
+}
+.menu .m-1:hover {
   background-color: #1d1d1d;
 }
-.menu .m-1:hover a, .menu .m-2:hover a, .menu .m-3:hover a {
+.menu .m-1:hover a {
   color: #fbfbfb;
 }
 .menu .m-2 {
   background-color: #fff200;
+  cursor: pointer;
+}
+.menu .m-2 a {
+  color: #1d1d1d;
 }
 .menu .m-2:hover {
   background-color: #1d1d1d;
+}
+.menu .m-2:hover a {
   color: #409F44;
-  cursor: pointer;
 }
 .menu .m-3 {
   background-color: #409F44;
+  cursor: pointer;
+}
+.menu .m-3 a {
+  color: #fbfbfb;
 }
 .menu .m-3:hover {
   background-color: #1d1d1d;
 }
 .menu .m-3:hover a {
   color: #fff200;
-}
-.menu .m-3:hover a:hover {
-  color: #fff200;
-}
-.menu .m-3 a {
-  color: #fbfbfb;
 }
 .menu .item {
   display: none;
@@ -198,7 +334,6 @@ video {
   margin-bottom: 2vw;
 }
 .container-card .c-1 p {
-  line-height: 2.5vw;
   color: #fbfbfb;
   font-size: 1.5vw;
 }
@@ -254,17 +389,15 @@ video {
   }
   .container-card .c-1 h4 {
     text-align: center;
-    font-size: 2.8vw;
+    font-size: 24px;
   }
   .container-card .c-1 p {
-    font-size: 2.7vw;
-    line-height: 2.9vw;
-    letter-spacing: 0.2vw;
+    font-size: 20px;
     margin: 1.9vw;
   }
   .container-card .c-1 ul {
     width: 100%;
-    font-size: 2.7vw;
+    font-size: 20px;
     padding-inline: 6vw;
     margin-top: 0;
   }
@@ -274,7 +407,7 @@ video {
     border-top: 1px solid #1d1d1d;
   }
   .container-card .c-2 .face h4, .container-card .c-3 .face h4, .container-card .c-4 .face h4 {
-    font-size: 5vw;
+    font-size: 20px;
     text-shadow: -3px -2px 4px #1d1d1d;
   }
   .container-card .c-2 .face p, .container-card .c-3 .face p, .container-card .c-4 .face p {
@@ -312,7 +445,7 @@ video {
   grid-row-start: 2;
   grid-row-end: 6;
   font-size: 8vw;
-  font-weight: bolder;
+  font-weight: 700;
   letter-spacing: 10px;
   margin: 0;
 }
@@ -387,7 +520,6 @@ video {
 .grid .des p {
   font-size: 1.4vw;
   text-align: right;
-  line-height: 2vw;
 }
 .grid .des h3 {
   position: absolute;
@@ -421,7 +553,7 @@ video {
     width: 100%;
   }
   .grid .gallery h3 {
-    font-size: 11.5vw;
+    font-size: 12vw;
   }
   .grid .gallery h4 {
     font-size: 2.7vw;
@@ -435,9 +567,7 @@ video {
   }
   .grid .des p {
     text-align: left;
-    font-size: 2.9vw;
-    line-height: 3.5vw;
-    letter-spacing: 0.2vw;
+    font-size: 20px;
   }
   .grid h3.vertical {
     top: 35%;
@@ -456,14 +586,12 @@ video {
   background-color: #1d1d1d;
   color: #fbfbfb;
   padding: 5vw;
-  line-height: 2rem;
 }
 .col-3 .about h4 {
   font-size: 1.7vw;
 }
 .col-3 .about p {
   font-size: 1.3vw;
-  line-height: 2.5vw;
 }
 .col-3 .image-mohole {
   grid-column-start: 2;
@@ -484,23 +612,22 @@ video {
     flex-wrap: wrap;
   }
   .col-3 .about {
-    line-height: 2.5vw;
     padding: 4vw 6vw;
   }
   .col-3 .about h4 {
-    font-size: 2.7vw;
+    font-size: 24px;
     text-align: center;
   }
   .col-3 .about p {
-    font-size: 2.9vw;
-    line-height: 3.5vw;
-    letter-spacing: 0.2vw;
+    font-size: 20px;
   }
 }
 .footer {
   background-color: #409F44;
   padding: 2vw;
   font-size: 1.1vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 .footer a {
   text-decoration: none;
@@ -546,6 +673,51 @@ video {
   font-size: 2.5vw;
 }
 
+@media (max-width: 787px) {
+  footer .footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+  }
+  footer .footer .info {
+    padding: 2vw;
+    text-align: left;
+  }
+  footer .footer .info span {
+    display: inline-block;
+    margin: 0.7vw;
+  }
+  footer .footer .info span img {
+    width: 5vw;
+    height: auto;
+    padding-right: 1vw;
+  }
+  footer .footer .copyright {
+    display: flex;
+    justify-content: start;
+    text-align: left;
+  }
+  footer .footer .social {
+    text-align: left;
+  }
+  footer .footer .social img {
+    margin: 2vw 0;
+    width: 10vw;
+    height: auto;
+  }
+  footer .footer .social .brands {
+    display: inline-block;
+  }
+  footer .footer .social .brands a {
+    padding: 1.5vw;
+  }
+  footer .footer .social .brands a:hover {
+    color: #fbfbfb;
+  }
+  footer .footer .social .brands a i {
+    font-size: 5vw;
+  }
+}
 body {
   background-color: #fbfbfb;
   color: #1d1d1d;
